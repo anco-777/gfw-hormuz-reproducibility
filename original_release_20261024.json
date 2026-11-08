@@ -1,6 +1,6 @@
 {
   "release_date": "2026-10-24",
-  "entry_url": "https://gfw-hormuz-reproducibility-20261024.bold-wasp-3237.chatgpt.site",
+  "entry_url": "https://github.com/anco-777/gfw-hormuz-reproducibility",
   "doi": null,
   "raw_data_redistributed": false,
   "code_and_data_release_files": [
@@ -8,30 +8,32 @@
       "kind": "full",
       "file": "GFW_SAR_Reproducibility_20261024.zip",
       "title": "完整复现包 / Complete release",
-      "bytes": 607161,
-      "sha256": "aa0afeb295440edd9bfbeb2469fe58e73b86d91d24ec7450ead02e2229fb246f",
-      "url": "https://gfw-hormuz-reproducibility-20261024.bold-wasp-3237.chatgpt.site/releases/2026-10-24/GFW_SAR_Reproducibility_20261024.zip"
+      "bytes": 607272,
+      "sha256": "530ab05b60f72e2ee8e21bc2ec62b2e3fab7c4a78837f856221df028be158f1a",
+      "url": "https://github.com/anco-777/gfw-hormuz-reproducibility/raw/refs/heads/main/GFW_SAR_Reproducibility_20261024.zip"
     },
     {
       "kind": "code",
       "file": "GFW_SAR_Code_20261024.zip",
       "title": "统计代码 / Analysis code",
-      "bytes": 47513,
-      "sha256": "9b8223c3a5bb9cb6a230fd91e1bc25932674883d278f9f40c9e7d48199f125dc",
-      "url": "https://gfw-hormuz-reproducibility-20261024.bold-wasp-3237.chatgpt.site/releases/2026-10-24/GFW_SAR_Code_20261024.zip"
+      "bytes": 47620,
+      "sha256": "d59213f4e38fa0f08c0371f6b850abda5a719da99a86364640800299562e8b36",
+      "url": "https://github.com/anco-777/gfw-hormuz-reproducibility/raw/refs/heads/main/GFW_SAR_Code_20261024.zip"
     },
     {
       "kind": "data",
       "file": "GFW_SAR_Derived_Data_20261024.zip",
       "title": "衍生数据 / Derived data",
-      "bytes": 562733,
-      "sha256": "497746eb290381859279bec66708bd8a940d47266a717a59c5a0b501236d0923",
-      "url": "https://gfw-hormuz-reproducibility-20261024.bold-wasp-3237.chatgpt.site/releases/2026-10-24/GFW_SAR_Derived_Data_20261024.zip"
+      "bytes": 562840,
+      "sha256": "47e0533499c2f10c1d6a4efa39780d4441bcbc425132af4db213fb388a55a668",
+      "url": "https://github.com/anco-777/gfw-hormuz-reproducibility/raw/refs/heads/main/GFW_SAR_Derived_Data_20261024.zip"
     }
   ],
   "source": "Global Fishing Watch Sentinel-1 SAR detections and footprint snapshot",
   "coordinate_reference_system": "WGS 84 (EPSG:4326), stored longitude/latitude (OGC:CRS84)",
   "temporal_order": "not confirmed; 0/432 settings yield strictly separated qualifying blocks",
   "validation": "4/4 manuscript table groups; 9/9 received original-output comparisons",
-  "scope": "The temporal audit was recalculated from the supplied daily CSV. The full 92.87 GiB raw data collection was not reread in the revision environment."
+  "scope": "The temporal audit was recalculated from the supplied daily CSV. The full 92.87 GiB raw data collection was not reread in the revision environment.",
+  "repackaged_date": "2026-11-08",
+  "repackaging_scope": "Documentation, download links and integrity manifests updated. Research data, analysis code, figures and numerical results are unchanged."
 }
