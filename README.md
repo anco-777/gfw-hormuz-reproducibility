@@ -6,6 +6,7 @@
 
 | 文件 | 内容 | 字节数 |
 | --- | --- | ---: |
+| [GFW_SAR_GitHub_Figure_Repro_20261124.zip](GFW_SAR_GitHub_Figure_Repro_20261124.zip) | 2026年11月24日图件复现包，含22张中英文高清图、绘图脚本和绘图数据 | 14087908 |
 | [GFW_SAR_GitHub_Materials_20261107.zip](GFW_SAR_GitHub_Materials_20261107.zip) | 修订稿配套包：201个研究材料文件及3个说明/清单文件 | 4478793 |
 | [GFW_SAR_Reproducibility_20261024.zip](GFW_SAR_Reproducibility_20261024.zip) | 完整复现包，70个文件 | 607272 |
 | [GFW_SAR_Code_20261024.zip](GFW_SAR_Code_20261024.zip) | 单独的分析代码包 | 47620 |
@@ -13,6 +14,8 @@
 | [original_release_20261024.json](original_release_20261024.json) | 2026年10月24日研究版本及当前压缩包校验清单 | — |
 
 **复核后续修订稿请先下载 `GFW_SAR_GitHub_Materials_20261107.zip`。** 若需要重现2026年10月24日研究版本，请下载2026年10月24日完整复现包；该版本的代码包和数据包也可分别下载并解压到同一目录。2026年11月8日统一更新了四个压缩包的下载入口、说明和校验清单，研究数据、分析代码、图像和统计结果未改动。重新打包后的校验值见下方；四个压缩包均通过ZIP完整性检查。
+
+新版图件复现包的运行入口为 `run_all_figures.py`，绘图数据索引、环境依赖及中文字体说明见包内 README。
 
 ## 2026年10月24日版材料的位置
 
@@ -53,6 +56,7 @@
 ## 压缩包校验值
 
 ```text
+8df141fad49c5b36029f34ad3426495070664d8d7ccac9227ecaeb6eb9acca02  GFW_SAR_GitHub_Figure_Repro_20261124.zip
 1e92d7effd83c26381934a39a9bce503a75fcd599589fae27cece6bac39d7f7e  GFW_SAR_GitHub_Materials_20261107.zip
 530ab05b60f72e2ee8e21bc2ec62b2e3fab7c4a78837f856221df028be158f1a  GFW_SAR_Reproducibility_20261024.zip
 d59213f4e38fa0f08c0371f6b850abda5a719da99a86364640800299562e8b36  GFW_SAR_Code_20261024.zip
